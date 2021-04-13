@@ -1,0 +1,19 @@
+<h3>Create New Course</h3>
+
+<a class="btn btn-primary" routerLink="/">Back</a>
+
+<form id="formNewCourse" name="formNewCourse" #courseData="ngForm" (ngSubmit)="AddCourseInfo(courseData.value)">
+    <div class="form-group">
+      <label for="title">Course Name</label>
+      <input type="text" name="title" class="form-control" id="title" aria-describedby="title" placeholder="Enter Course Name"  ngModel />      
+    </div>
+    <div class="form-group">
+        <label for="credits">Credits</label>
+        <input type="text" name="credits"  class="form-control" id="credits" aria-describedby="credits" placeholder="Enter Credits"  ngModel />      
+    </div>
+    <div class="form-group">
+        <label for="departmentName">Department Name</label>
+        <input type="text" name="departmentName" class="form-control" id="departmentName" aria-describedby="departmentName" placeholder="Enter Department Name" ngModel />      
+    </div>
+    <button type="submit" class="btn btn-primary">Create</button>
+  </form>

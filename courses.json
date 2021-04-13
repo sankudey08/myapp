@@ -1,0 +1,28 @@
+{
+  "courses": [
+    {
+      "title": "C#",
+      "credits": 10,
+      "departmentName": "Science",
+      "id": 1
+    },
+    {
+      "title": "English",
+      "credits": 20,
+      "departmentName": "Arts",
+      "id": 2
+    },
+    {
+      "title": "Biology",
+      "credits": 25,
+      "departmentName": "Science",
+      "id": 3
+    },
+    {
+      "title": "Physics",
+      "credits": 15,
+      "departmentName": "Science",
+      "id": 4
+    }
+  ]
+}
